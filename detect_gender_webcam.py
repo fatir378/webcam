@@ -13,7 +13,7 @@ webcam = cv2.VideoCapture(0)
     
 classes = ['man','woman']
 
-# loop through framess
+# loop through frames
 while webcam.isOpened():
 
     # read frame from webcam 
