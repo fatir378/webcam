@@ -19,7 +19,7 @@ while webcam.isOpened():
     # read frame from webcam 
     status, frame = webcam.read()
 
-    # apply face detection
+    # applly face detection
     face, confidence = cv.detect_face(frame)
 
 
