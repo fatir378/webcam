@@ -5,7 +5,7 @@ import cv2
 import os
 import cvlib as cv
 
-# load model
+# load model.
 model = load_model('gender_detection.model')
 
 # open webcam
